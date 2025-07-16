@@ -1,0 +1,13 @@
+{
+  "name": "starting-fresh",
+  "version": "1.0.0",
+  "description": "Just starting fresh",
+  "main": "index.js",
+"scripts": {
+  "start": "node src/index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
