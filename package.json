@@ -3,11 +3,23 @@
   "version": "1.0.0",
   "description": "Just starting fresh",
   "main": "index.js",
-"scripts": {
-  "start": "node src/index.js"
-},
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "@playwright/test": "^1.54.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqrxvb/starting-fresh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tqrxvb/starting-fresh/issues"
+  },
+  "homepage": "https://github.com/tqrxvb/starting-fresh#readme"
 }
